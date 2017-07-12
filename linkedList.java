@@ -19,7 +19,7 @@ public class linkedList {
 			int input = in.nextInt();
 			switch (input) {
 			case 1:
-				System.out.println("Insert a Element in beginning :");
+				System.out.println("Insert a Element in the beginning :");
 				str = st.nextLine();
 				list.addFirst(str);
 				show(list);
